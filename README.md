@@ -2,6 +2,9 @@
 
 A Chrome extension that lets you delete all videos from your YouTube "Watch Later" playlist with a single click.
 
+**Version:** 2.05.25  
+**Author:** Tony Fiston
+
 ## Features
 
 - One-click deletion of all videos in your YouTube Watch Later playlist

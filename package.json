@@ -1,8 +1,8 @@
 {
   "name": "watchlater-zap",
-  "version": "1.0.0",
+  "version": "2.05.25",
   "description": "A Chrome extension that lets you delete all videos from your YouTube Watch Later playlist with a single click.",
-  "author": "Your Name",
+  "author": "Tony Fiston",
   "license": "MIT",
   "repository": {
     "type": "git",
