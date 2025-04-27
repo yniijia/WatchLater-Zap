@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WatchLater Zap</title>
+  <link rel="stylesheet" href="css/popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="icons/icon48.png" alt="WatchLater Zap logo" width="32" height="32">
+        <h1>WatchLater Zap</h1>
+      </div>
+      <p class="subtitle">One-click cleanup for your Watch Later playlist</p>
+    </header>
+    
+    <main>
+      <div class="content">
+        <p id="instructions">Navigate to your YouTube Watch Later playlist, then click the button below to remove all videos.</p>
+        
+        <button id="zap-btn" class="primary-btn">
+          <span class="btn-text">Delete All Videos</span>
+        </button>
+        
+        <div id="progress" class="hidden">
+          <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <p id="status">Processing...</p>
+        </div>
+        
+        <p id="error" class="error hidden"></p>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Made with ♥ for YouTube power users</p>
+    </footer>
+  </div>
+  
+  <script src="js/popup.js"></script>
+</body>
+</html> 

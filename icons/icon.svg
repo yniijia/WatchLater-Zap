@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="#1a73e8" />
+  
+  <!-- Inner Circle (lighter) -->
+  <circle cx="64" cy="64" r="50" fill="#1557b0" />
+  
+  <!-- "ZAP" Lightning Icon -->
+  <path d="M64 20 L44 64 L64 64 L48 108 L84 64 L64 64 L84 20 Z" fill="white" />
+  
+  <!-- Optional: Add a subtle shadow effect -->
+  <circle cx="64" cy="64" r="60" fill="rgba(0,0,0,0.1)" filter="blur(4px)" style="transform: translateY(4px);" />
+</svg> 
